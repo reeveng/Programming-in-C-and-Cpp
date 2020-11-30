@@ -128,6 +128,7 @@ Make for every assignment a new file (<em>file > new > source file</em>) and sav
    
    Heb je graag nog wat extra oefeningen op reeksontwikkelingen, dan vind je er op https://nl.wikipedia.org/wiki/Taylorreeks extra oefeningen, die bovendien eenvoudig te controleren zijn.
    Zo kan je bijvoorbeeld de uitkomst die jouw zelfgeprogrammeerde reeksontwikkeling van ln(1+x) geeft,
+   
    ![image sum2](https://github.com/reeveng/Programming-in-C-and-Cpp/blob/main/Ch1/som2.jpg)
 
    vergelijken met de uitkomst van ln(1+x). Kies in dit geval x dan wel tussen -1 en 1 zoals de voorwaarde eist, en zoek uit hoe ln in C-taal geschreven wordt.
