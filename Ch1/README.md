@@ -1,38 +1,49 @@
-Kennismaking met C
+# Kennismaking met C
+
 main(), types, operatoren, controlestructuren, i/o , eenvoudige functies/procedures
 Heb je de juiste instellingen gedaan in Dev-C++ ? Zie richtlijnen installatie.
 Maak voor elke opgave en nieuw bronbestand (Bestand > Nieuw > Broncode ) en sla dit op als .c-bestand; Maak géén projecten.
 
 Schrijf een programma dat volgende tekst op het scherm brengt (delay bij uitschrijven van de verschillende getallen is niet nodig).
+
+```
 Hello world!
 10 9 8 7 6 5 4 3 2 1 
 START
+```
+
 Opmerkingen:
 Heb je de output 10 9 8 7 6 5 4 3 2 1 hardgecodeerd? Niet doen!
 Kan je het aftellen laten beginnen op 100? Gebruik een constante voor de startwaarde van het aftellen.
 oplossing
 
 Schrijf een programma dat alle (gehele) getallen van 0 tot en met 64 uitschrijft. Per regel komt zowel octale, decimale, als hexadecimale voorstelling van één getal. Zorg ervoor dat de getallen rechts gealligneerd zijn, dus zo:
-   0    0    0
-   1    1    1
-   2    2    2
-   3    3    3
-  ...
-  11    9    9
-  12   10    a
-  13   11    b
-  14   12    c
-  15   13    d
-  16   14    e
-  17   15    f
-  20   16   10
-  21   17   11
-  ...
-  77   63   3f
- 100   64   40
+
+| Octal | Decimal | Hexadecimal |
+| ------------- |:-------------:| -----:|
+|   0  |  0  |  0 |
+ |  1   | 1  |  1 |
+|   2  |  2 |   2 |
+|   3 |   3   | 3 |
+|  ... | ... | ... |
+|  11   | 9  |  9 |
+|  12  | 10  |  a |
+|  13 |  11  |  b |
+|  14  | 12  |  c |
+|  15 |  13  |  d |
+|  16 |  14  |  e |
+|  17 |  15  |  f |
+|  20 |  16 |  10 |
+|  21  | 17  | 11 |
+|  ... | ... | ... |
+|  77 |  63  | 3f |
+| 100 |  64  | 40 |
+
+
 oplossing
 
 Gegeven volgend programmafragment, als oplossing voor oefening 1. Dit levert de gevraagde output. Het levert echter op een examen strafpunten op. Waarom?
+```c
 int main(){
      int i;
      for(i=10; i>0; i--){
@@ -45,6 +56,8 @@ int main(){
           }       
      }
 }
+```
+
 oplossing
 
 Gegeven de opgave schrijf alle machten van 2 (beginnend bij 2^0=1), kleiner dan 10.000 uit.
