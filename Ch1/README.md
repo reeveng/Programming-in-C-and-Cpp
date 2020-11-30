@@ -116,7 +116,7 @@ Make for every assignment a new file (<em>file > new > source file</em>) and sav
 
 7. Bij het berekenen van de sinus van een gegeven hoek in radialen, gebruikt je computer of rekenmachine onderstaande reeksontwikkeling:
    
-   ![image sum1](https://github.com/reeveng/Programming-in-C-and-Cpp/tree/main/Ch1/som1.jpg)
+   ![image sum1](https://github.com/reeveng/Programming-in-C-and-Cpp/blob/main/Ch1/som1.jpg)
    
    1. Schrijf een programma dat de sinus berekent van 0.23 radialen door de eerste 10 termen van de reeksontwikkeling te berekenen. Opgelet: we kijken naar efficiëntie van je berekeningen!
       Vergelijk je berekening met het resultaat van de ingebouwde sinusfunctie uit de bibliotheek math.h - tot hoeveel decimalen is jouw berekening correct?
@@ -128,7 +128,7 @@ Make for every assignment a new file (<em>file > new > source file</em>) and sav
    
    Heb je graag nog wat extra oefeningen op reeksontwikkelingen, dan vind je er op https://nl.wikipedia.org/wiki/Taylorreeks extra oefeningen, die bovendien eenvoudig te controleren zijn.
    Zo kan je bijvoorbeeld de uitkomst die jouw zelfgeprogrammeerde reeksontwikkeling van ln(1+x) geeft,
-   ![image sum2](https://github.com/reeveng/Programming-in-C-and-Cpp/tree/main/Ch1/som2.jpg)
+   ![image sum2](https://github.com/reeveng/Programming-in-C-and-Cpp/blob/main/Ch1/som2.jpg)
 
    vergelijken met de uitkomst van ln(1+x). Kies in dit geval x dan wel tussen -1 en 1 zoals de voorwaarde eist, en zoek uit hoe ln in C-taal geschreven wordt.
    
